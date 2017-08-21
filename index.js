@@ -23,7 +23,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return n.toInt();
+  return parseInt(n);
 }
 
 makeInt('2');
